@@ -34,7 +34,10 @@ class Vertus:
             api_hash=config.API_HASH,
             workdir=config.WORKDIR,
             proxy=proxy,
-            lang_code='ru'
+            lang_code='en',
+            app_version="Telegram 8.9.3",
+            system_version="iOS 15.4",
+            device_model="iPhone 13 Pro Max",
         )
 
         headers = {'User-Agent': UserAgent(os='android').random}
